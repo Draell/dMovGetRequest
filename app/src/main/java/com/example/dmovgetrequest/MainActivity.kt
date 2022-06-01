@@ -36,6 +36,7 @@ class MainActivity : AppCompatActivity() {
 
         val jsonRequest = JsonObjectRequest(url, Response.Listener<JSONObject>{ response ->
             Log.i("JSONRESPONSE", response.getJSONArray("results").toString())
+            binding.rvPokemones.adapter = MainAdapter(response.getJSONArray("results"))
         },
         Response.ErrorListener { error ->
             Log.w("JSONRESPONSE", error.message as String)

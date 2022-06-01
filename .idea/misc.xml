@@ -3,7 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Android Studio/dMovGetRequest/app/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="..\:/Android Studio/dMovGetRequest/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Android Studio/dMovGetRequest/app/src/main/res/layout/item_pokemones.xml" value="0.18" />
       </map>
     </option>
   </component>

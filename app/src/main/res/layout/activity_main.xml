@@ -26,4 +26,16 @@
         app:layout_constraintLeft_toRightOf="@id/etPokeAmount"
         />
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvPokemones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/item_pokemones"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etPokeAmount"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
